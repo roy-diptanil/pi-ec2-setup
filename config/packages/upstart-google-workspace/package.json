@@ -1,0 +1,13 @@
+{
+  "name": "upstart-google-workspace-pi",
+  "version": "1.0.36-pi.1",
+  "private": true,
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions/index.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

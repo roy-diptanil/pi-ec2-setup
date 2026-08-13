@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "hostConfigDiscovery": "off",
+    "autoAuth": false,
+    "mcpFooterStatus": "compact"
+  },
+  "mcpServers": {
+    "glean": {
+      "url": "https://upstart-production-be.glean.com/mcp/default",
+      "auth": "oauth",
+      "lifecycle": "lazy",
+      "directTools": ["search", "chat", "read_document", "employee_search"],
+      "includeTools": ["search", "chat", "read_document", "employee_search"]
+    }
+  }
+}

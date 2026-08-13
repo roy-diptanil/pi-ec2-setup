@@ -1,0 +1,17 @@
+# Credentials and machine state
+auth.json
+**/auth.json
+*.jsonl
+**/oauth.log
+**/google-workspace-oauth/
+**/mcp-cache.json
+**/models-store.json
+.env
+.env.*
+
+# Generated dependencies and caches
+node_modules/
+**/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
